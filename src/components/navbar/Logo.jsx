@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Image } from '@chakra-ui/react'
-import LogoImg from '../../images/kenstate.png'
+import LogoImg from '../../images/Kenstate.png'
 
 const Logo = (props) => {
   return (
