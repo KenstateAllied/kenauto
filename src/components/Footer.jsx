@@ -11,7 +11,7 @@ import {
   Button
 } from '@chakra-ui/react';
 import { FaTwitter, FaYoutube, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-import MainLogo from '../images/main-icon.png'
+import MainLogo from '../images/auto4.png'
 
 export default function Footer() {
   return (
@@ -29,7 +29,7 @@ export default function Footer() {
                   <Image width='40px' height='40px' src={MainLogo} />
                 </Box>
                 <Text fontSize={'sm'}>
-                  © 2022 CarsTrade. All rights reserved
+                  © 2023 KenstateAllied. All rights reserved
                 </Text>
                 <Stack direction={'row'} spacing={6}>
                     <FaTwitter />
@@ -42,13 +42,13 @@ export default function Footer() {
                   <Heading as='h5' size='sm' mb={8}>Support</Heading>
                   <Stack align={'flex-start'}>
                       <Link href={'#'}>About Us</Link>
-                      <Link href={'#'}>Report A Fake Advertisment</Link>
+                      <Link href={'#'}>Report Fraud</Link>
                       <Link href={'#'}>Contact Us</Link>
                   </Stack>
             </Box>   
       
             <Box>
-                  <Heading as='h5' size='sm' mb={8}>CarsTrade</Heading>
+                  <Heading as='h5' size='sm' mb={8}>Kenstate Allied</Heading>
                   <Stack align={'flex-start'}>
                       <Link href={'#'}>Add An Ad</Link>
                       <Link href={'#'}>Profile</Link>
@@ -57,16 +57,10 @@ export default function Footer() {
             </Box>
 
             <Box>
-                  <Heading as='h5' size='sm' mb={8}>About Me</Heading>
+                  <Heading as='h5' size='sm' mb={8}>About Us</Heading>
                   <Stack align={'flex-start'}>
-                     <Text mb={3}>Mahmoud Hanouneh. Reach me out on</Text>
-                     <Button colorScheme='gray' leftIcon={<FaGithub />}>
-                       <a className='no-underline' target='_blank' href='https://www.github.com/mahmoud-hanouneh'>GitHub</a>
-                     </Button>
-                     <Button colorScheme='gray' leftIcon={<FaLinkedin />}>
-                      <a className='no-underline' target='_blank' href='https://www.linkedin.com/in/mahmoud-hanouneh'>LinkedIn</a>
-
-                     </Button>
+                     <Text mb={3}>Kenstate Allied. +254 724 052417</Text>
+                     
                   </Stack>
             </Box>
 
@@ -87,9 +81,9 @@ export default function Footer() {
             spacing={4}
             justify={{ md: 'center' }}
             align={{ md: 'center' }}>
-            <Text>© {new Date().getFullYear()} CarsTrade. All rights reserved. By { ' ' }
+            <Text>© {new Date().getFullYear()} Kenstate Allied. All rights reserved. By { ' ' }
               <span className='text-red-700 font-bold	'>
-                <a className='uppercase' href='https://www.linkedin.com/in/mahmoud-hanouneh'>Mahmoud Hanouneh</a>
+                <a className='uppercase' href='https://www.kenstate-web.netlify.app'>Kenstate Allied</a>
               </span>
             </Text>
 

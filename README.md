@@ -5,13 +5,13 @@
 <br />
 <div align="center">
   <a href="https://e-commerce-react-firebase.vercel.app">
-    <img src="src/images/logo.png" alt="Logo">
+    <img src="src/images/kenstate.png" alt="Logo">
   </a>
 
-  <h3 align="center">CarsTrade</h3>
+  <h3 align="center">Autotrac</h3>
 
   <p align="center">
-    CarsTrade, an online cars trade shop.
+    Autotrac, an online cars trade shop.
     <br />
     <a href="https://e-commerce-react-firebase.vercel.app">View Demo</a>
   </p>
@@ -49,7 +49,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://e-commerce-react-firebase.vercel.app)
 
 I designed and created this cars online retailing application using React.js and Firebase from A to Z.
-CarsTrade is an online cars trade application that let you post your selling or renting car advertisment. 
+Autotrac is an online cars trade application that let you post your selling or renting car advertisment. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -84,7 +84,7 @@ First, npm must be installed in your machine. So, you can install it by the foll
 
 ### Installation
 
-Through your CMD, follow these four simple steps to get CarsTrade up and running locally on you computer:
+Through your CMD, follow these four simple steps to get Autotrac up and running locally on you computer:
 
 1. Clone the repo and CD to the project's directory
    ```sh
@@ -136,7 +136,7 @@ Usefull resources that have been used during building the project.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: /screenshots/screencapture-carsTrade-home.png
+[product-screenshot]: /screenshots/screencapture-Autotrac-home.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Tailwind.css]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white

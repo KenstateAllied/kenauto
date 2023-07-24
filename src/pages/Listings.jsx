@@ -47,8 +47,8 @@ const Listings = () => {
     <>
         <Heading as='h2' size='xl' mb='2rem' ml='6rem'>
             {params.categoryName === 'rent' 
-                ? 'Cars For Rent'
-                : 'Cars For Sale'
+                ? 'Cars, Tractors, Machinery For Rent'
+                : 'Cars, Tractors, Machinery For Sale'
             }
         </Heading>
         {loading ? <ScaleSpinner /> : cars && cars.length > 0 ?

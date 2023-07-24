@@ -2,7 +2,7 @@ import { useState, useContext } from 'react'
 import { getAuth, sendPasswordResetEmail } from 'firebase/auth'
 import { Alert, AlertIcon, useToast, FormControl, FormLabel, Input, Button } from '@chakra-ui/react'
 import LoadingContext from '../contexts/loading/LoadingContext'
-import logoImg from '../images/logo.png'
+import LogoImg from '../images/kenstate.png'
 
 const ForgotPassword = () => {
    
@@ -53,7 +53,7 @@ const ForgotPassword = () => {
           <div>
             <img
               className="mx-auto h-12 w-auto"
-              src={logoImg}
+              src={LogoImg}
               alt="Workflow"
             />
             <h2 className="mt-6 mb-10 text-center text-3xl font-extrabold text-gray-900">Forgot Password</h2>

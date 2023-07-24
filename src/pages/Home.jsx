@@ -2,8 +2,8 @@ import React from 'react'
 import { Box, Image, Button, Stack } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 
-import forRentImg from '../images/for-rent.png'
-import forSaleImg from '../images/for-sale.png'
+import forRentImg from '../images/rent.jpg'
+import forSaleImg from '../images/sale.jpg'
 
 const Home = () => {
  
@@ -24,7 +24,7 @@ const Home = () => {
                     noOfLines={1}
                     className='mb-3'
                   >
-                  Cars For Sale
+                  Cars, Tractors, Machinery For Sale
                   </Box>
                   <Link to='/category/sale'>
                       <Button size='sm' colorScheme='orange' variant='ghost'>
@@ -44,7 +44,7 @@ const Home = () => {
                   noOfLines={1}
                   className='mb-3'
                 >
-                Cars For Rent
+                Cars, Tractors, Machinery For Rent
                 </Box>
               
                 <Link to='/category/rent'>
@@ -60,3 +60,4 @@ const Home = () => {
 }
 
 export default Home
+

@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react'
-import LogoImg from '../images/logo.png'
+import LogoImg from '../images/kenstate.png'
 
 import {
   FormControl,
@@ -107,7 +107,7 @@ const SignUp = () => {
             <div>
               <img
                 className="mx-auto h-12 w-auto"
-                src={LogoImg}
+                src={auto6.png}
                 alt="Workflow"
               />
               <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign Up</h2>
