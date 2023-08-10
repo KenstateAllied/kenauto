@@ -40,7 +40,7 @@ const Listings = () => {
         }
        
       }
-    //fetchCars()
+    fetchCars()
   }, [params.categoryName])
 
   return (
