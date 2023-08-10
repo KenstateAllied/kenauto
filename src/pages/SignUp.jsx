@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react'
-import LogoImg from '../images/'
+import LogoImg from '../images/logo.png'
 
 import {
   FormControl,
