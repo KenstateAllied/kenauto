@@ -34,8 +34,8 @@ const MenuLinks = ({ isOpen }) => {
           pt={[4, 4, 0, 0]}
       >
         <MenuItem to="/">Home</MenuItem>
-        <MenuItem to="/category/sale">Sale</MenuItem>
-        <MenuItem to="/category/rent">Rent</MenuItem>
+        <MenuItem to="/category/sale">For Sale</MenuItem>
+        <MenuItem to="/category/rent">Wanted</MenuItem>
         <MenuItem to="/profile">Profile</MenuItem>
         <MenuItem to="/create-listing">
            <AiOutlineAppstoreAdd color='orange' size='1.7rem' />

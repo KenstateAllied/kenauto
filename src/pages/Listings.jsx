@@ -40,15 +40,15 @@ const Listings = () => {
         }
        
       }
-    fetchCars()
+   // fetchCars()
   }, [params.categoryName])
 
   return (
     <>
         <Heading as='h2' size='xl' mb='2rem' ml='6rem'>
             {params.categoryName === 'rent' 
-                ? 'Cars, Tractors, Machinery For Rent'
-                : 'Cars, Tractors, Machinery For Sale'
+                ? 'Cars, Tractors, Machinery, Spares  Wanted'
+                : 'Cars, Tractors, Machinery, Spares For Sale'
             }
         </Heading>
         {loading ? <ScaleSpinner /> : cars && cars.length > 0 ?
@@ -74,7 +74,7 @@ const Listings = () => {
               >
                 <AlertIcon boxSize='40px' mr={0} />
                 <AlertTitle mt={4} mb={1} fontSize='lg'>Error occured!</AlertTitle>
-                <AlertDescription maxWidth='sm'>Please consider using a VPN if you live in <span className='font-bold'>Syria</span> or other countires where Firebase services are blocked.</AlertDescription>
+                <AlertDescription maxWidth='sm'>Sorting out Google Cloud Database issues in  <span className='font-bold'>Kenya</span> If you are selling or buying just whatsapp Pic, Loc & Price.</AlertDescription>
               </Alert>
           
         }

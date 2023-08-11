@@ -59,7 +59,7 @@ export default function Footer() {
             <Box>
                   <Heading as='h5' size='sm' mb={8}>About Us</Heading>
                   <Stack align={'flex-start'}>
-                     <Text mb={3}>Kenstate Allied. +254 724 052417</Text>
+                     <Text mb={3}>Kenstate Allied. +254 724 052 417</Text>
                      
                   </Stack>
             </Box>
@@ -83,7 +83,7 @@ export default function Footer() {
             align={{ md: 'center' }}>
             <Text>© {new Date().getFullYear()} Kenstate Allied. All rights reserved. By { ' ' }
               <span className='text-red-700 font-bold	'>
-                <a className='uppercase' href='https://www.kenstate-web.netlify.app'>Kenstate Allied</a>
+                <a className='uppercase' href='https://www.kenstate-web.netlify.app'>Kenstate Group</a>
               </span>
             </Text>
 

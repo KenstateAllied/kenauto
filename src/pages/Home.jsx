@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Image, Button, Stack } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 
-import forRentImg from '../images/rent.jpg'
+import forRentImg from '../images/wanted.jpg'
 import forSaleImg from '../images/sale.jpg'
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
                     noOfLines={1}
                     className='mb-3'
                   >
-                  Cars, Tractors, Machinery For Sale
+                  Cars, Tractors, Machinery, Spares For Sale
                   </Box>
                   <Link to='/category/sale'>
                       <Button size='sm' colorScheme='orange' variant='ghost'>
@@ -44,7 +44,7 @@ const Home = () => {
                   noOfLines={1}
                   className='mb-3'
                 >
-                Cars, Tractors, Machinery For Rent
+                Cars, Tractors, Machinery, Spares Wanted
                 </Box>
               
                 <Link to='/category/rent'>

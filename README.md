@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://e-commerce-react-firebase.vercel.app">
-    <img src="src/images/kenstate.png" alt="Logo">
+    <img src="src/images/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Autotrac</h3>
